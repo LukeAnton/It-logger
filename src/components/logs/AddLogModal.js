@@ -12,9 +12,12 @@ const AddLogModal = () => {
     } else {
       console.log(message, tech, attention);
     }
+    setMessage("");
+    setTech("");
+    setAttention("");
   };
   return (
-    <div id="add-log-modal" className="modal" style={modalStyle}>
+    <div id="add-log-modal" className="modal">
       <div className="modal-content">
         <h4>Enter System Log</h4>
         <div className="row">
@@ -77,11 +80,6 @@ const AddLogModal = () => {
       </div>
     </div>
   );
-};
-
-const modalStyle = {
-  width: "75%",
-  height: "75%"
 };
 
 export default AddLogModal;
