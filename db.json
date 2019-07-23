@@ -1,28 +1,18 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Something change",
-      "attention": false,
-      "tech": "John Doe",
-      "date": "2019-07-23T00:44:47.647Z"
+      "message": "Mac-Air arrow keys broken",
+      "attention": true,
+      "tech": "Luke Firth",
+      "date": "2019-07-23T02:25:35.998Z",
+      "id": 1
     }
   ],
   "techs": [
     {
-      "id": 1,
-      "firstName": "John",
-      "lastName": "Doe"
-    },
-    {
-      "id": 2,
-      "firstName": "Sam",
-      "lastName": "Smith"
-    },
-    {
-      "id": 3,
-      "firstName": "Bria",
-      "lastName": "Mackay"
+      "firstName": "Luke",
+      "lastName": "Firth",
+      "id": 1
     }
   ]
 }
